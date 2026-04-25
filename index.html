@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Font Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Render All Elements Normally-->
+  <link rel="stylesheet" href="normalize.css">
+  <!-- Framework File -->
+  <link rel="stylesheet" href="framework.css">
+  <!-- Main Templete Css File -->
+  <link rel="stylesheet" href="Master.css">
+</head>
+<body>
+  <div class="page">
+    <!-- Start sidebar -->
+    <div class="sidebar">
+      <h3>Hamo</h3>
+      <ul>
+        <li>
+          <a class="active" href="index.html">
+            <i class="fa-regular fa-chart-bar fa-fw"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <i class="fa-solid fa-gear fa-fw"></i>
+            <span>Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <i class="fa-regular fa-user fa-fw"></i>
+            <span>Profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <i class="fa-solid fa-diagram-project fa-fw"></i>
+            <span>Projects</span>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <i class="fa-solid fa-graduation-cap fa-fw"></i>
+            <span>Courses</span>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <i class="fa-regular fa-circle-user fa-fw"></i>
+            <span>Friends</span>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <i class="fa-regular fa-file fa-fw"></i>
+            <span>Files</span>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <i class="fa-regular fa-credit-card fa-fw"></i>
+            <span>Plans</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- End sidebar -->
+    <div class="content">
+      <!-- Start Head -->
+      <div class="head between-flex">
+        <div class="search">
+          <input type="search" placeholder="Type A Keyword">
+        </div>
+        <div class="icons">
+          <span class="notification">
+            <i class="fa-regular fa-bell fa-lg"></i>
+          </span>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwQrHwP1-i0do_PiG85w1ci1YCTCApudsM64oSBwfoGg&s=10" alt="">
+        </div>
+      </div>
+      <!-- End Head -->
+      <h1>Dashboard</h1>
+      <div class="wrapper">
+        <!-- Start Welcome Widget -->
+        <div class="welcome">
+          <div class="intro">
+            <div>
+              <h2>Welcome</h2>
+              <p>Hamo</p>
+            </div>
+            <img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/08/web-developer.jpg" alt="">
+          </div>
+          <img class="avatar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0w_2Oppe3hNvP6uexv_ASxlKLuB3N6I7PR4FABmA8UMeJhE_Y4YWjsxk&s=10" alt="">
+          <div class="body">
+            <div>Hamo Alaa <span>Developer</span></div>
+            <div>80 <span>projects</span></div>
+            <div>$8500 <span>Earned</span></div>
+          </div>
+          <a class="visit btn-shape" href="#profile.html">Profile</a>
+        </div>
+        <!-- End Welcome Widget -->
+        <!-- Start Quick Draft widget -->
+        <div class="quick-draft">
+          <h2>Quick Draft</h2>
+          <p>Write A Draft For Your Ideas</p>
+          <form>
+            <input type="text" placeholder="Title">
+            <textarea placeholder="Your Thought"></textarea>
+            <input class="save btn-shape" type="submit" value="save">
+          </form>
+        </div>
+        <!-- End Quick Draft widget -->
+        <!-- Start Targets -->
+        <div class="targets">
+          <h2>Yearly Targets</h2>
+          <p>Targets Of The Year</p>
+          <div class="target-row center-flex blue">
+            <div class="icon center-flex">
+              <i class="fa-solid fa-dollar-sign fa-lg c-blue"></i>
+            </div>
+            <div class="details blue">
+              <span>Money</span>
+              <span>$20.000</span>
+              <div class="progress">
+                <span style="width: 60%">
+                  <span>60%</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="target-row center-flex orange">
+            <div class="icon center-flex">
+              <i class="fa-solid fa-code fa-lg c-blue"></i>
+            </div>
+            <div class="details orange">
+              <span>Projects</span>
+              <span>24</span>
+              <div class="progress">
+                <span style="width: 80%">
+                  <span>80%</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="target-row center-flex green">
+            <div class="icon center-flex">
+              <i class="fa-solid fa-user fa-lg"></i>
+            </div>
+            <div class="details green">
+              <span>Team</span>
+              <span>12</span>
+              <div class="progress">
+                <span style="width: 50%">
+                  <span>50%</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Targets -->
+        <!-- Start Ticket -->
+        <div class="ticket">
+          <h2>Tickets Statistics</h2>
+          <p>Everything About Support Tickets</p>
+          <div class="content">
+            <div class="box">
+              <i class="fa-regular fa-rectangle-list fa-2x orange"></i>
+              <span>2500</span>
+              total
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-spinner fa-2x blue"></i>
+              <span>500</span>
+              Pending
+            </div>
+            <div class="box">
+              <i class="fa-regular fa-circle-check fa-2x green"></i>
+              <span>1900</span>
+              Closed
+            </div>
+            <div class="box">
+              <i class="fa-regular fa-rectangle-xmark fa-2x red"></i>
+              <span>100</span>
+              Deleted
+            </div>
+          </div>
+        </div>
+        <!-- End Ticket -->
+        <!-- Start Latest-News -->
+        <div class="latest-news">
+          <h2>Latest-News</h2>
+          <div class="news-row">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnHH5BoeIJqz-XpmLHM5nlWwfjmWfIkLTEszrlGRD1Q6gFyZHJLXbz0LU&s=10" alt="">
+            <div class="info">
+              <h3>Created SASS Section</h3>
+              <p>New SASS Examples & Tutorials</p>
+            </div>
+            <div class="btn-shape label">3 Days Ago</div>
+          </div>
+          <div class="news-row">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEom5efLp023366xfQZT6854YFMr-ERwiOrjUyTPavKfs9yzNACkLoUas&s=10" alt="">
+            <div class="info">
+              <h3>Chanced The Design</h3>
+              <p>A Brand New Website Design</p>
+            </div>
+            <div class="btn-shape label">5 Days Ago</div>
+          </div>
+          <div class="news-row">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOkFREQcyajOjT1MQseYITDhFb8O5v5omafcPo9c_mZKz3QXlOPiX7U8M&s=10" alt="">
+            <div class="info">
+              <h3>Team Increased</h3>
+              <p>3 Developers Joined The Team</p>
+            </div>
+            <div class="btn-shape label">7 Days Ago</div>
+          </div>
+        </div>
+        <!-- End Latest-News -->
+        <!-- Start Tasks -->
+        <div class="tasks">
+          <h2>Latest Tasks</h2>
+          <div class="task-row between-flex">
+            <div class="info">
+              <h3>Record One New Video</h3>
+              <p>Record Python create Exe Project</p>
+            </div>
+            <i class="fa-regular fa-trash-can delete"></i>
+          </div>
+          <div class="task-row between-flex">
+            <div class="info">
+              <h3>Write Aritcle</h3>
+              <p>Write Low Level vs High Level Languages</p>
+            </div>
+            <i class="fa-regular fa-trash-can delete"></i>
+          </div>
+          <div class="task-row between-flex">
+            <div class="info">
+              <h3>Finish Project</h3>
+              <p>Publish Academy Programming Project</p>
+            </div>
+            <i class="fa-regular fa-trash-can delete"></i>
+          </div>
+          <div class="task-row between-flex done">
+            <div class="info">
+              <h3>Attend The Meating</h3>
+              <p>Attend The Project Business Analysis Meeting</p>
+            </div>
+            <i class="fa-regular fa-trash-can delete"></i>
+          </div>
+          <div class="task-row between-flex">
+            <div class="info">
+              <h3>Finish Lesson</h3>
+              <p>Finish Teaching Flex Box</p>
+            </div>
+            <i class="fa-regular fa-trash-can delete"></i>
+          </div>
+        </div>
+        <!-- End Tasks -->
+        <!-- Start Top Search Word -->
+        <div class="search-item">
+          <h2>Top Search Items</h2>
+          <div class="items-head between-flex">
+            <div>Keyword</div>
+            <div>Search Count</div>
+          </div>
+          <div class="items">
+            <span>Programming</span>
+            <span class="done btn-shape">220</span>
+          </div>
+          <div class="items">
+            <span>Javascript</span>
+            <span class="done btn-shape">180</span>
+          </div>
+          <div class="items">
+            <span>PHP</span>
+            <span class="done btn-shape">160</span>
+          </div>
+          <div class="items">
+            <span>Code</span>
+            <span class="done btn-shape">145</span>
+          </div>
+          <div class="items">
+            <span>Design</span>
+            <span class="done btn-shape">110</span>
+          </div>
+        </div>
+        <!-- End Top Search Word -->
+        <!-- Start Latest Uploads -->
+        <div class="latest-upload">
+          <h2>Latest Uploads</h2>
+          <ul>
+            <li class="between-flex">
+              <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDz11qbYKv_asRzEhUtqKveHgMc_bMt8NEantUKF7yKg&s=10" alt="">
+                <div class="info">
+                  <span>my-file.pdf</span>
+                  <span>Hamo</span>
+                </div>
+              </div>
+              <div class="done btn-shape">2.9mb</div>
+            </li>
+            <li class="between-flex">
+              <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZf3I9dkc4ypqLfVgLRfOR5GaGxUpYoNYSosxs8U7NVg&s=10" alt="">
+                <div class="info">
+                  <span>my-video-file-avi</span>
+                  <span>Admin</span>
+                </div>
+              </div>
+              <div class="done btn-shape">4.9mb</div>
+            </li>
+            <li class="between-flex">
+              <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYOhf1Swj3uD2xJCB8cM9EkCs-y3a-NNQfELgZGzZrfBV9sSZ8a7kbIGE&s=10" alt="">
+                <div class="info">
+                  <span>my-psd.pdf</span>
+                  <span>Osama</span>
+                </div>
+              </div>
+              <div class="done btn-shape">4.5mb</div>
+            </li>
+            <li class="between-flex">
+              <div class="box">
+                <img src="https://img.freepik.com/premium-vector/css-code-vector-illustration-style_717774-1426.jpg?semt=ais_incoming&w=740&q=80" alt="">
+                <div class="info">
+                  <span>my-zip-file.pdf</span>
+                  <span>User</span>
+                </div>
+              </div>
+              <div class="done btn-shape">8.9mb</div>
+            </li>
+          </ul>
+        </div>
+        <!-- End Latest Uploads -->
+        <!-- Start Last Projects -->
+        <div class="last-project">
+          <h2>Last Project Progress</h2>
+          <ul>
+            <li class="done">Got The Project</li>
+            <li class="done">Started The Project</li>
+            <li class="done">The Project About To Finish</li>
+            <li class="current">Test The Project</li>
+            <li>Finish The Project & Get Money</li>
+          </ul>
+          <img class="lanch-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxEoby68B2frrWZLWSTNvH0WcV7ByqCd2C3vHFXWpiww&s=10" alt="">
+        </div>
+        <!-- End Last Projects -->
+        <!-- Start Reminders -->
+        <div class="reminders">
+          <h2>Reminders</h2>
+          <ul>
+            <li>
+              <span class="key"></span>
+              <div class="blue">
+                <p>Check My Tasks List</p>
+                <span>28/9/2022 - 12:00am</span>
+              </div>
+            </li>
+            <li>
+              <span class="key green"></span>
+              <div class="green">
+                <p>Check My Projects</p>
+                <span>26/10/2022 - 12:00am</span>
+              </div>
+            </li>
+            <li>
+              <span class="key orange"></span>
+              <div class="orange">
+                <p>Call All My Clients</p>
+                <span>5/11/2022 - 12:00am</span>
+              </div>
+            </li>
+            <li>
+              <span class="key red"></span>
+              <div class="red">
+                <p>Finish The Development Workshop</p>
+                <span>20/12/2022 - 12:00am</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- End Reminders -->
+        <!-- Start Latest Post -->
+        <div class="latest-post">
+          <h2>Latest Post</h2>
+          <div class="top">
+            <img class="avatar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfeJX-il0d9tSJFqGWmyWqBlj2M0Se-fBFEjC82hZRq2QftTlY3N7jpwVN&s=10" alt="" >
+            <div class="info">
+              <span>Mohamed Alaa</span>
+              <span>About 3 Hours Ago</span>
+            </div>
+          </div>
+          <div class="content-post">You Can Fool All Of The People Some Of The Time, And Some Of The People All Of The Time, But You Can't Fool Of The People All Of The Time.
+          </div>
+          <div class="post-stats between-flex">
+            <div class="heart">
+              <i class="fa-regular fa-heart"></i>
+              <span>1.8k</span>
+            </div>
+            <div class="comment">
+              <i class="fa-regular fa-comment"></i>
+              <span>500</span>
+            </div>
+          </div>
+        </div>
+        <!-- End Latest Post -->
+        <!-- Start Social Media Stats -->
+        <div class="social-media">
+          <h2>Social Media Stats</h2>
+          <div class="box twitter between-flex">
+            <i class="fa-brands fa-twitter fa-2x center-flex"></i>
+            <span>90K Followers</span>
+            <a href="#" class="btn-shape">Follw</a>
+          </div>
+          <div class="box facebook between-flex">
+            <i class="fa-brands fa-facebook-f fa-2x center-flex"></i>
+            <span>2M Like</span>
+            <a href="#" class="btn-shape">Like</a>
+          </div>
+          <div class="box youtube between-flex">
+            <i class="fa-brands fa-youtube fa-2x center-flex"></i>
+            <span>1M Subscribe</span>
+            <a href="#" class="btn-shape">Subscribe</a>
+          </div>
+          <div class="box linkedin between-flex">
+            <i class="fa-brands fa-linkedin fa-2x center-flex"></i>
+            <span>70k Followers</span>
+            <a href="#" class="btn-shape">Follw</a>
+          </div>
+        </div>
+        <!-- End Social Media Stats -->
+      </div>
+      <!-- Start Projects Table -->
+      <div class="projects">
+        <h2>Projects</h2>
+        <div class="responsive-table">
+          <table>
+            <thead>
+              <tr>
+                <td>Name</td>
+                <td>Finish Data</td>
+                <td>Client</td>
+                <td>Price</td>
+                <td>Team</td>
+                <td>Status</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Elzero Shop</td>
+                <td>12 oct 2026</td>
+                <td>Elzero Company</td>
+                <td>$1500</td>
+                <td>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_-7WCNX3WUFfgUohZTuzpgaC61_mvDXwghV_TkMJxOF4YHM4xj9dX1wU&s=10" alt="">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_M-EAB4-nB1smqjRasNOLamHjmOLywrlgMGO60HPlfg&s=10" alt="">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT93tQs5To1P8VnZOePV5kbkUfHhKVvV1XT1lsHZHixGeq3v31vC0rZUPdh&s=10" alt="">
+                  <img src="https://static.vecteezy.com/system/resources/previews/046/409/821/non_2x/avatar-profile-icon-in-flat-style-male-user-profile-illustration-on-isolated-background-man-profile-sign-business-concept-vector.jpg" alt="">
+                </td>
+                <td>
+                  <span class="label btn-shape">Completed</span>
+                </td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>Mazen App</td>
+                <td>05 Sap 2026</td>
+                <td>Mazen</td>
+                <td>$800</td>
+                <td>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_-7WCNX3WUFfgUohZTuzpgaC61_mvDXwghV_TkMJxOF4YHM4xj9dX1wU&s=10" alt="">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_M-EAB4-nB1smqjRasNOLamHjmOLywrlgMGO60HPlfg&s=10" alt="">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT93tQs5To1P8VnZOePV5kbkUfHhKVvV1XT1lsHZHixGeq3v31vC0rZUPdh&s=10" alt="">
+                  <img src="https://static.vecteezy.com/system/resources/previews/046/409/821/non_2x/avatar-profile-icon-in-flat-style-male-user-profile-illustration-on-isolated-background-man-profile-sign-business-concept-vector.jpg" alt="">
+                </td>
+                <td>
+                  <span class="label grey btn-shape">Completed</span>
+                </td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>Mohamed Website</td>
+                <td>22 Mar 2026</td>
+                <td>Mohamed</td>
+                <td>$3300</td>
+                <td>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_-7WCNX3WUFfgUohZTuzpgaC61_mvDXwghV_TkMJxOF4YHM4xj9dX1wU&s=10" alt="">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_M-EAB4-nB1smqjRasNOLamHjmOLywrlgMGO60HPlfg&s=10" alt="">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT93tQs5To1P8VnZOePV5kbkUfHhKVvV1XT1lsHZHixGeq3v31vC0rZUPdh&s=10" alt="">
+                  <img src="https://static.vecteezy.com/system/resources/previews/046/409/821/non_2x/avatar-profile-icon-in-flat-style-male-user-profile-illustration-on-isolated-background-man-profile-sign-business-concept-vector.jpg" alt="">
+                </td>
+                <td>
+                  <span class="label orange btn-shape">Completed</span>
+                </td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>Arena Applcation</td>
+                <td>19 Oct 2026</td>
+                <td>Arena</td>
+                <td>$4100</td>
+                <td>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_-7WCNX3WUFfgUohZTuzpgaC61_mvDXwghV_TkMJxOF4YHM4xj9dX1wU&s=10" alt="">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_M-EAB4-nB1smqjRasNOLamHjmOLywrlgMGO60HPlfg&s=10" alt="">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT93tQs5To1P8VnZOePV5kbkUfHhKVvV1XT1lsHZHixGeq3v31vC0rZUPdh&s=10" alt="">
+                  <img src="https://static.vecteezy.com/system/resources/previews/046/409/821/non_2x/avatar-profile-icon-in-flat-style-male-user-profile-illustration-on-isolated-background-man-profile-sign-business-concept-vector.jpg" alt="">
+                </td>
+                <td>
+                  <span class="label red btn-shape">Completed</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- End Projects Table -->
+    </div>
+  </div>
+</body>
+</html>
